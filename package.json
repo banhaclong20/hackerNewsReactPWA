@@ -1,0 +1,31 @@
+{
+  "name": "hacker_news_react_pwa",
+  "version": "1.0.0",
+  "description": "Another Hacker News Progressive Web App - React JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "firebase deploy --only hosting",
+    "push": "npm run build && npm run deploy",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Tom Tran",
+  "license": "MIT",
+  "dependencies": {
+    "halogenium": "^2.2.3",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.1.1",
+    "react-scripts": "^1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-feather": "^1.0.8"
+  }
+}
